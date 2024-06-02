@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Marhey, sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: Marhey, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Audio Tag */
+audio::-webkit-media-controls-panel {
+  background-color: #162820;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+audio::-webkit-media-controls-play-button {
+  margin-left: 1em;
+  background-color: #00bf63;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+audio::-webkit-media-controls-mute-button {
+  margin-left: 1.5em;
+  background-color: #00bf63;
+  border-radius: 10px;
+  opacity: 1;
+  cursor: pointer;
+}
+audio::-webkit-media-controls-current-time-display {
+  margin-left: 1em;
+  color: #cbb21d;
+  text-shadow: none;
+  font-weight: bold;
+  opacity: 1;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #cbb21d;
+  text-shadow: none;
+  font-weight: bold;
+  opacity: 1;
+}
+audio::-webkit-media-controls-timeline {
+  margin-left: .5em;
+  background-color: #00bf63 !important;
+  border-radius: 2em;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
